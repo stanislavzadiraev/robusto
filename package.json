@@ -1,0 +1,52 @@
+{
+  "name": "robusto",
+  "version": "0.0.1",
+  "description": "A Node.js HTTP2 static server.",
+  "author": {
+    "name": "Stanislav Zadiraev",
+    "url": "http://github.com/stanislavzadiraev/",
+    "email": "zadiraefft@yandex.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanislavzadiraev/streamо.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.12.0"
+  },
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "robusto": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node --experimental-modules test/index.js"
+  },
+  "dependencies": {
+    "mime": "broofa/node-mime#master",
+    "punycode": "bestiejs/punycode.js#master",
+    "node-forge": "digitalbazaar/forge#master"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "micro",
+    "serve",
+    "https",
+    "http2",
+    "stream",
+    "deflate",
+    "gzip",
+    "brotli",
+    "static",
+    "assets",
+    "ssl",
+    "tls",
+    "selfsigned",
+    "highload",
+    "secure",
+    "file",
+    "server"
+  ]
+}

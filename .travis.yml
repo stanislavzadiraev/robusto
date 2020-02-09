@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "12"
+sudo: true
+before_script:
+  - sudo sysctl net.core.somaxconn=65535
+#deploy:
+#  provider: npm
+#  email: "$NPM_EMAIL"
+#  api_key: "$NPM_TOKEN"
+#  on:
+#    branch: master
